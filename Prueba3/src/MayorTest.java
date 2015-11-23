@@ -76,6 +76,7 @@ public class MayorTest {
 	public void testValorNull() {
 		
 		System.out.println("Test ningun valor");
+		System.out.println("Tot bé!");
 		int[] lista = new int[] {};
 		assertEquals(0, Mayor.mayor(lista));	
 	}
